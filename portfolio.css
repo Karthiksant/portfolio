@@ -1,0 +1,135 @@
+.portfolio {
+ max-width: 800px;
+ margin: 0 auto;
+ padding: 20px;
+ background-color: #ffdf00;
+ /* background-color:rgb(214, 184, 16); Add background color to the entire portfolio */
+}
+
+header {
+ text-align: center;
+ background-color: #3c4142;
+ color: #fff;
+ padding: 20px;
+ border-radius: 5px;
+}
+
+header h2 {
+ margin: 0;
+ color: #2bda2b;
+ /* color: #4caf50; */
+}
+header h2:hover {
+ margin: 0;
+ color:whitesmoke;
+}
+
+header p {
+ color: #ddd;
+}
+header p:hover {
+ color:#4caf50;
+}
+
+.introduction,
+.projects,
+.skills,
+.education,
+.experience,
+.contact {
+ margin-top: 30px;
+}
+
+.project-list,
+.skills ul,
+.education-list,
+.experience-list {
+ list-style: none;
+ padding: 0;
+}
+
+.project,
+.education-entry,
+.experience-entry {
+ border: 1px solid #ddd;
+ border-radius: 5px;
+ padding: 15px;
+ margin-bottom: 20px;
+ background-color: #f9f9f9; /* Add background color to project, education, and experience entries */
+}
+.project:hover,
+.education-entry:hover,
+.experience-entry:hover {
+  background-color:rgb(214, 210, 210); /*Add background color to project, education, and experience entries */
+}
+.project p:hover,
+.education-entry p:hover,
+.experience-entry:hover
+{
+ color:#3c4142;
+}
+
+.project h3,
+.education-entry h3,
+.experience-entry h3 {
+ margin-top: 0;
+}
+
+.project p,
+.education-entry p,
+.experience-entry p {
+ color: #424141;
+}
+
+.project a {
+ display: block;
+ margin-top: 10px;
+ color: #2bda2b;
+ text-decoration: none;
+}
+
+.project a:hover {
+ text-decoration: underline;
+ background-color:rgb(214, 210, 210); 
+}
+
+.skills ul {
+ display: flex;
+ flex-wrap: wrap;
+ padding: 0;
+}
+
+.skills li {
+ margin-right: 10px;
+ margin-bottom: 10px;
+ padding: 10px;
+ border: 1px solid #ddd;
+ border-radius: 5px;
+ background-color: #fafafa;
+ transition: background-color 0.2s ease-in-out;
+}
+
+.skills li:hover {
+ /* background-color:lightslategrey; */
+ background-color: #4c3938;
+ color: white;
+}
+  
+.contact p {
+ margin: 10px 0;
+ font-size: large;
+}
+
+.contact p a {
+ color: rgb(72, 70, 70);
+ text-decoration: none;
+}
+
+.contact p a:hover {
+ text-decoration: underline;
+ color:#2bda2b;
+}
+p{
+  font-size: 1.3rem;
+  font-family: 'Times New Roman', Times, serif;
+}
